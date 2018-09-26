@@ -11500,30 +11500,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\charlotte.hearne\\.nuget\\packages\\": {},
+    "C:\\Users\\mitchell.gladstone\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\charlotte.hearne\\Documents\\Bootcamp\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+      "projectUniqueName": "C:\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
       "projectName": "TicTacToe",
-      "projectPath": "C:\\Users\\charlotte.hearne\\Documents\\Bootcamp\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
-      "packagesPath": "C:\\Users\\charlotte.hearne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\charlotte.hearne\\Documents\\Bootcamp\\TicTacToe\\TicTacToe\\obj\\",
+      "projectPath": "C:\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+      "packagesPath": "C:\\Users\\mitchell.gladstone\\.nuget\\packages\\",
+      "outputPath": "C:\\TicTacToe\\TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\charlotte.hearne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\mitchell.gladstone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
         "http://iank-private-nuget.azurewebsites.net/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
