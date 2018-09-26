@@ -32,8 +32,10 @@ namespace TicTacToe.Controllers
         [ProducesResponseType(400)]
         public ActionResult<string>Post(NewGameModel value)
         {
-            //ToDo mapm newGM to fullGM
-            repo.Add(value);
+            Player player1 = new Player(value.X, GameSign.X);
+            Player player2 = new Player(value.O, GameSign.O);
+            Game game = new Game(player1, player2, value.GameId);
+            repo.Add(game);
             return Ok();
         }
 

@@ -7,18 +7,18 @@ using TicTacToe.Models;
 namespace TicTacToe.Repositories
 {
     
-    public class GameRepository : IRepository<NewGameModel>
+    public class GameRepository : IRepository<Game>
     {
-        private List<NewGameModel> _gameList;
+        private List<Game> _gameList;
 
         public GameRepository()
         {
-           _gameList = new List<NewGameModel>();
+           _gameList = new List<Game>();
         }
 
-        public NewGameModel GetById(Guid id)
+        public Game GetById(Guid id)
         {
-            var game = _gameList.SingleOrDefault(x => x.GameId.Equals(id));
+            var game = _gameList.SingleOrDefault(x => x._gameId.Equals(id));
             if (game == null)
             {
                 throw new Exception(); 
@@ -26,24 +26,24 @@ namespace TicTacToe.Repositories
             return game;
         }
 
-        public NewGameModel GetAll()
+        public Game GetAll()
         {
             throw new System.NotImplementedException();
         }
 
         public Guid[] ReturnAllGameID()
         {
-           return _gameList.Select(x => x.GameId).ToArray();
+           return _gameList.Select(x => x._gameId).ToArray();
         }
 
-        public void Add(NewGameModel obj)
+        public void Add(Game obj)
         {
             _gameList.Add(obj);
         }
 
         public void Delete(Guid objId)
         {
-            NewGameModel remove = this.GetById(objId);
+            Game remove = this.GetById(objId);
            _gameList.Remove(remove);
         }
     }
