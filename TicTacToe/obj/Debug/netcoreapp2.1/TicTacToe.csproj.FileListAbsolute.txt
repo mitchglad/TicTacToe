@@ -25,3 +25,4 @@ C:\Users\charlotte.hearne\Documents\Bootcamp\TicTacToe\TicTacToe\obj\Debug\netco
 C:\Users\charlotte.hearne\Documents\Bootcamp\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.1\TicTacToe.RazorTargetAssemblyInfo.cache
 C:\Users\charlotte.hearne\Documents\Bootcamp\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.1\TicTacToe.dll
 C:\Users\charlotte.hearne\Documents\Bootcamp\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.1\TicTacToe.pdb
+C:\TicTacToe\TicTacToe\obj\Debug\netcoreapp2.1\TicTacToe.csprojAssemblyReference.cache

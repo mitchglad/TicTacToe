@@ -18,7 +18,7 @@ namespace TicTacToe.Repositories
 
         public NewGameModel GetById(Guid id)
         {
-            var game = _gameList.SingleOrDefault(x => x.gameId.Equals(id));
+            var game = _gameList.SingleOrDefault(x => x.GameId.Equals(id));
             if (game == null)
             {
                 throw new Exception(); 
@@ -33,7 +33,7 @@ namespace TicTacToe.Repositories
 
         public Guid[] ReturnAllGameID()
         {
-           return _gameList.Select(x => x.gameId).ToArray();
+           return _gameList.Select(x => x.GameId).ToArray();
         }
 
         public void Add(NewGameModel obj)
