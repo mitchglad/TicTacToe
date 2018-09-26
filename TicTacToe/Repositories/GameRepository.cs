@@ -18,7 +18,7 @@ namespace TicTacToe.Repositories
 
         public Game GetById(Guid id)
         {
-            var game = _gameList.SingleOrDefault(x => x._gameId.Equals(id));
+            Game game = _gameList.SingleOrDefault(x => x._gameId.Equals(id));
             if (game == null)
             {
                 throw new Exception(); 

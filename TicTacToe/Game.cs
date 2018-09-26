@@ -7,10 +7,10 @@ namespace TicTacToe
 {
     public class Game
     {
-        private readonly Player _player1;
-        private readonly Player _player2;
+        public readonly Player _player1;
+        public readonly Player _player2;
         public readonly Guid _gameId;
-        private readonly GameBoard _board;
+        public readonly GameBoard _board;
 
         public Game(Player player1, Player player2, Guid gameId)
         {

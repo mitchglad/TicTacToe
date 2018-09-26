@@ -27,6 +27,13 @@ namespace TicTacToe.Controllers
             return Json(repo.ReturnAllGameID());
         }
 
+        // GET api/values/5
+        [HttpGet("{id}")]
+        public ActionResult<string> Get(Guid id)
+        {
+            return Json(repo.GetById(id));
+        }
+
         // POST api/values
         [HttpPost]
         [ProducesResponseType(400)]
