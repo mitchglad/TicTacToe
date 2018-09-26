@@ -15,6 +15,8 @@ namespace TicTacToe
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            var player = new Player("Tom", "X");
+            Console.WriteLine(player.Name);
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
